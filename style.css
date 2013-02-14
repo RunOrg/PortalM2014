@@ -1,9 +1,28 @@
 body {
   margin: 0;
+  font-family: 'Oxygen', sans-serif;
 }
 
 #head {
   height: 40px;
+  line-height: 40px;
+  font-size: 28px;
+}
+
+#head .inner {
+  width: 960px;
+  margin: auto;
+}
+
+#m2014 {
+  font-weight: bold;
+  float: left;
+}
+
+#clock {
+  font-size: 20px;
+  float: right; 
+  color: #888;
 }
 
 #body {
