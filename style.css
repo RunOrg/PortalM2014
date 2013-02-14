@@ -29,22 +29,30 @@ body {
 }
 
 #flag > * {
+  width: 30px;
   height: 400px;
   float: left;
+  transition: width 1s;
+  -moz-transition: width 1s; /* Firefox 4 */
+  -webkit-transition: width 1s; /* Safari and Chrome */
+  -o-transition: width 1s; /* Opera */
+  cursor: pointer;
 }
 
 #flag .red {
-  width: 30px;
   color: white;
   background-color: #EF4135;
 }
 
 #flag .white {
-  width: 30px;
+  color: #333;
 }
 
 #flag .blue {
-  width: 900px;
   color: white;
   background-color: #0055A4;
+}
+
+#flag.red .red, #flag.blue .blue, #flag.white .white { 
+  width: 900px;
 }
