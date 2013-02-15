@@ -69,8 +69,8 @@ body {
   -webkit-transition: width 1s; /* Safari and Chrome */
   -o-transition: width 1s; /* Opera */
   cursor: pointer;
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 
 #flag .red {
@@ -79,7 +79,7 @@ body {
 }
 
 #flag .white {
-  color: #333;
+  color: #555;
   background-color: white;
 }
 
