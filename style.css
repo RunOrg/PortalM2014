@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen'), local('Oxygen-Regular'), url(http://themes.googleusercontent.com/static/fonts/oxygen/v2/OFgyER5uFw7Cy-F01PjbVg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oxygen Bold'), local('Oxygen-Bold'), url(http://themes.googleusercontent.com/static/fonts/oxygen/v2/fSUtikcZd7PHZK0t2hzTeT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
 body {
   margin: 0;
   font-family: 'Oxygen', sans-serif;
@@ -35,7 +48,7 @@ body {
   padding: 20px;
   margin: 0 -20px;
   box-shadow: inset 0 0 7px #333;
-  background: url("http://subtlepatterns.com/patterns/kindajean.png") repeat scroll 0 0 #EEE;
+  background: url("img/kindajean.png") repeat scroll 0 0 #EEE;
 }
 
 #flag {
