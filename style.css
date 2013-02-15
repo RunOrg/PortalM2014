@@ -91,3 +91,27 @@ body {
 #flag.red .red, #flag.blue .blue, #flag.white .white { 
   width: 900px;
 }
+
+#foot {
+  margin: 0 auto;
+  text-align: center; 
+  font-size: 14px;
+  line-height: 2em;
+}
+
+#foot input {
+  text-align: center;
+  width: 300px;
+}
+
+#foot button {
+  display: inline-block;
+}
+
+#contact .thanks { 
+  display: none;
+  font-weight: bold;
+  line-height: 4em;
+}
+#contact.sent .thanks { display: block }
+#contact.sent form { display: none }
